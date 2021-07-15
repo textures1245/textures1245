@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T04:25:59.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="PK6IWpqTkFNqZGiyADHd" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T07:44:49.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="uAY5zMdVfsC_d7uoMb11" version="14.8.4" type="github">
   <diagram id="ROvts_fWQUoPfvE9nhKH" name="Page-1">
-    <mxGraphModel dx="460" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="460" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,6 +73,31 @@
         </mxCell>
         <mxCell id="uUkoY4yEjTfg8-38-l4v-37" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uUkoY4yEjTfg8-38-l4v-38" target="uUkoY4yEjTfg8-38-l4v-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-38" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUkoY4yEjTfg8-38-l4v-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-39" value="Storage values&lt;br&gt;a= &quot;one&quot;&lt;br&gt;b = &quot;two&quot;&lt;br&gt;c = &quot;three&quot;&lt;br&gt;d = &quot;four&quot;&lt;br&gt;day = 4&lt;br&gt;month = 7&lt;br&gt;year = 2562" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="550" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uUkoY4yEjTfg8-38-l4v-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-42" value="Print the values by those variable" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="720" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uUkoY4yEjTfg8-38-l4v-46" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
