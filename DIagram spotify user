@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T06:21:39.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.9.2" etag="kYNg9GkrBGqtSaoH3Ho4" type="github"><diagram id="kDuHVFiVcxTABmaedpeg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-24T06:47:21.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="tJL2gQXz00ngJwy8hpgQ" version="14.9.2" type="github">
+  <diagram id="kDuHVFiVcxTABmaedpeg" name="Page-1">
+    <mxGraphModel dx="460" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://e7.pngegg.com/pngimages/163/564/png-clipart-spotify-logo-spotify-samsung-gear-s3-music-streaming-media-podcast-macbook-miscellaneous-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="85" y="100" width="120" height="68.3" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-3" value="Spotify" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="105" y="65" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-5" value="&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px ; background-color: rgb(255 , 255 , 255)&quot;&gt;เป็น&lt;/span&gt;&lt;a href=&quot;https://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87&quot; class=&quot;mw-redirect&quot; title=&quot;สื่อแบบส่งต่อเนื่อง&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px&quot;&gt;บริการสตรีม&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px ; background-color: rgb(255 , 255 , 255)&quot;&gt;เพลง&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%AD%E0%B8%94%E0%B9%81%E0%B8%84%E0%B8%AA%E0%B8%95%E0%B9%8C&quot; title=&quot;พอดแคสต์&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px&quot;&gt;พอดแคสต์&lt;/a&gt;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;และ&lt;/span&gt;&lt;a href=&quot;https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%94%E0%B8%B5%E0%B9%82%E0%B8%AD&quot; title=&quot;วิดีโอ&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none rgb(255 , 255 , 255) ; font-family: sans-serif ; font-size: 14px ; text-indent: 35px&quot;&gt;วิดีโอ&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="35" y="168.3" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-7" value="Database user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="85" y="230" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-8" value="1. Listener (ผู้ฟัง)&lt;br&gt;2. musician/band (นักดนครี/แบนด์)&lt;br&gt;3.Developers (นักพัฒนา)&lt;br&gt;5.Record labels (ค่ายเพลง)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-14" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#9673a6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="520" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-18" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#b85450;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-19" value="Listener" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-20" value="Muscian/Band" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-24" value="ใช้บริการ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="225" y="600" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-25" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#6c8ebf;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-26" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="410" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-27" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;verticalAlign=middle;strokeColor=#82b366;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="410" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-28" value="&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-29" value="ปล่อยเพลง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-30" value="Developers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="145" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-31" value="Record labels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-34" value="ทำเพลง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="245" y="485" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-35" value="จัดทำรายเพลงยอดนิยม" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-36" value="ดูยอด feedback เพื่อนำไป&lt;br&gt;พัฒนาต่อยอด" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="55" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5KHwrktpIh9TJWVAmJy-37" value="ให้ feedback แก่เพลงที่&lt;br&gt;ตนเองชอบ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="95" y="600" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
