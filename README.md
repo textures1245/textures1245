@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @textures
-- 👀 I’m interested in Web deverloper
-- 🌱 I’m currently learning fontend
+- 👀 I’m interested in Software Developer
+- 🌱 I’m currently learning Python, Javascript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
