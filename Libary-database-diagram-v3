@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T03:29:43.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FVlJO6cQv5MqT5EfRh03" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T03:46:01.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JpORXHobmy-7hC13-_sI" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1254" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,20 @@
         <mxCell id="l-ZzcjlN8_lar0Z690rD-23" value="member_card_expiration_date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-16">
           <mxGeometry y="186" width="191.5" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-24" value="ยืมคืนหนังสือ" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-132" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.0000000000002" y="613.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-136" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-24" target="l-ZzcjlN8_lar0Z690rD-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="540" />
+              <mxPoint x="760" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-24" value="ยืม/คืน หนังสือ" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="507" width="160" height="213" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -102,23 +115,26 @@
         <mxCell id="l-ZzcjlN8_lar0Z690rD-25" value="order of transaction_code" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="26" width="160" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-107" value="librarian_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-120" value="member_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="50" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-26" value="book_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-107" value="librarian_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="76" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-27" value="ordered_date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-26" value="book_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="102" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-28" value="returned_date " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-27" value="ordered_date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=0" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="128" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-29" value="amount_books" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-28" value="returned_date " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=0" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
           <mxGeometry y="154" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-29" value="amount_books" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-24">
+          <mxGeometry y="180" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-30" value="Book" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="378" y="231.5" width="160" height="111" as="geometry">
+          <mxGeometry x="700" y="558" width="160" height="111" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -132,7 +148,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-34" value="Librarian" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="644" y="120" width="183" height="174" as="geometry">
+          <mxGeometry x="700" y="120" width="183" height="174" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -159,50 +175,58 @@
         <mxCell id="l-ZzcjlN8_lar0Z690rD-42" value="ทำรายการ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="380" width="70" height="67.5" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="302" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-135" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-44" target="l-ZzcjlN8_lar0Z690rD-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-44" value="ของ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="280" width="40" height="43" as="geometry" />
+          <mxGeometry x="610" y="592" width="40" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-45" value="ลายละเอียดการยืมห้อง" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="990" y="930" width="160" height="130" as="geometry">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-125" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-141" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-45" target="l-ZzcjlN8_lar0Z690rD-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="720" />
+              <mxPoint x="1025" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-45" value="ยืม/คืน ห้อง" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="760" width="160" height="190" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-46" value="order_or_rental_room" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-47" value="room_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-47" value="room_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-122" value="librarian_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=0" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
+          <mxGeometry y="78" width="160" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-102" value="member_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=0" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
+          <mxGeometry y="105" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-48" value="rental_period&#xa;&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
+          <mxGeometry y="131" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-49" value="amount_member" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-45">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
+          <mxGeometry y="157" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="568.7143075125559" y="804.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-52" target="l-ZzcjlN8_lar0Z690rD-98">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="271.5" y="1000" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="272" y="970" />
-              <mxPoint x="847" y="970" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-52" value="ทำรายการจอง/คืน &lt;br&gt;ห้องประชุม" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-52" value="ทำรายการ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="189.69" y="765" width="163.62" height="79" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-53" value="Room" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="774" y="584" width="160" height="111" as="geometry">
+          <mxGeometry x="883" y="790" width="160" height="111" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -215,153 +239,31 @@
         <mxCell id="l-ZzcjlN8_lar0Z690rD-56" value="Room_type" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-53">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="980" y="994.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-58" value="มี" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="980" width="47" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.022;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-60" target="l-ZzcjlN8_lar0Z690rD-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-60" value="แจ้งจ้อง/คืน&lt;br&gt;ห้องประชุม" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="910" y="280" width="103" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="l-ZzcjlN8_lar0Z690rD-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560.0769230769229" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="l-ZzcjlN8_lar0Z690rD-84">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="558" y="410" />
-            </Array>
-            <mxPoint x="560" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="747" y="360" as="targetPoint" />
-            <mxPoint x="747" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="l-ZzcjlN8_lar0Z690rD-44">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="302" />
-            </Array>
-            <mxPoint x="680.0769230769229" y="410" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-80" target="l-ZzcjlN8_lar0Z690rD-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-80" value="มี" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="607.5" width="80" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-82">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="747" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-82" value="คืน" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="727" y="323" width="40" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-84">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="181.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-84" value="ยืม" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="538" y="160" width="40" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-88" target="l-ZzcjlN8_lar0Z690rD-104">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-88" target="l-ZzcjlN8_lar0Z690rD-58">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-88" target="l-ZzcjlN8_lar0Z690rD-60">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1033" y="920" />
-              <mxPoint x="1033" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-88" value="ยืมห้อง" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="567" y="760" width="160" height="196" as="geometry">
-            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-89" value="order_or_rental_room" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-90" value="room_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-91" value="librarian_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="78" width="160" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-92" value="member_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="105" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-93" value="rental_period&#xa;&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="131" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-94" value="amount_member" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-88">
-          <mxGeometry y="157" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-98" target="l-ZzcjlN8_lar0Z690rD-104">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-98" target="l-ZzcjlN8_lar0Z690rD-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="747" y="970" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="740" y="828" />
-              <mxPoint x="740" y="970" />
-              <mxPoint x="744" y="970" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-98" target="l-ZzcjlN8_lar0Z690rD-60">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="390" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="962" y="828" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-98" value="คืนห้อง" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="767" y="760" width="160" height="137" as="geometry">
-            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-99" value="order_or_rental_room" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=5" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-98">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-100" value="room_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-98">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-101" value="librarian_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-98">
-          <mxGeometry y="78" width="160" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-102" value="member_ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontStyle=4" vertex="1" parent="l-ZzcjlN8_lar0Z690rD-98">
-          <mxGeometry y="105" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="l-ZzcjlN8_lar0Z690rD-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.026;entryY=0.919;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-104" target="l-ZzcjlN8_lar0Z690rD-54">
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-104" target="l-ZzcjlN8_lar0Z690rD-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-104" value="ของ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="727" y="710" width="40" height="30" as="geometry" />
+          <mxGeometry x="787" y="840" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l-ZzcjlN8_lar0Z690rD-105" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;รายชื่อกลุ่ม&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;ไตรภาค สิทธิแก้ว 6404101318&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;ฤทธิรุจน์ อุ่นตาล 6404101336&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;พงศกร คูณเสนา 6404101365&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;รุ่งเจริญ โพธิ์ศรี 6404101335&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI Historic&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 15px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="918" y="46" width="212" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-138" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-118" target="l-ZzcjlN8_lar0Z690rD-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-118" value="รับรองโดย" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-142" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=-0.156;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="l-ZzcjlN8_lar0Z690rD-140" target="l-ZzcjlN8_lar0Z690rD-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="180" />
+              <mxPoint x="883" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l-ZzcjlN8_lar0Z690rD-140" value="รับรองโดย" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="510" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
