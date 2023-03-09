@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T15:27:13.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HBwgS4x-0enHSY6ATTQa" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T15:27:54.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IaQznyTHH5kORXUVazND" version="21.0.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="876" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Membership" style="swimlane;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="290" height="570" as="geometry" />
+          <mxGeometry x="155" y="128" width="290" height="570" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="5" target="7">
           <mxGeometry relative="1" as="geometry" />
@@ -114,8 +114,13 @@
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#393C56;direction=south;" vertex="1" parent="3">
           <mxGeometry x="25" y="115" width="8" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="3" source="ToehWfmH9_tg1f4AcDxQ-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-111" value="คำสั่งซื้อ&#xa;ไม่สามารถดำเนินการได้" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="3">
-          <mxGeometry x="82" y="472" width="115" height="50" as="geometry" />
+          <mxGeometry x="82" y="492" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Payment" style="swimlane;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
@@ -172,12 +177,9 @@
             <mxPoint x="520" y="620" as="targetPoint" />
             <Array as="points">
               <mxPoint x="420" y="339" />
-              <mxPoint x="420" y="625" />
+              <mxPoint x="420" y="645" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ToehWfmH9_tg1f4AcDxQ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-111" target="38">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.267;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-81" target="38">
           <mxGeometry relative="1" as="geometry">
