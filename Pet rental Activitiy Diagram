@@ -1,60 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T13:04:14.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EdnsQGvEs0SncTw4xW80" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T15:26:54.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="KauNj_hBA6UeAy_x_RcG" version="21.0.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="851" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="Membership" style="swimlane;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+          <mxGeometry x="164.5" y="128" width="290" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="ellipse;shape=startState;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="2" vertex="1">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#E07A5F;endFill=1;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="2" source="5" target="7" edge="1">
-          <mxGeometry x="100" y="40" as="geometry">
-            <mxPoint x="115" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7" value="เริ่มกระบวนการเช่า" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="2" vertex="1">
-          <mxGeometry x="40" y="110" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ToehWfmH9_tg1f4AcDxQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="8" target="10">
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="7" target="ToehWfmH9_tg1f4AcDxQ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="สมาชิกเลือกสัตว์เลี้ยง &#xa; เพื่อเช่า." style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="2" vertex="1">
-          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
+        <mxCell id="7" value="เริ่มกระบวนการเช่า" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="2" vertex="1">
+          <mxGeometry x="38" y="105" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="" style="endArrow=open;strokeColor=#E07A5F;endFill=1;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="2" edge="1">
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" target="10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115.5" y="162" as="sourcePoint" />
-            <mxPoint x="115.5" y="222" as="targetPoint" />
+            <mxPoint x="115" y="288" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="สมาชิกเลือกสัตว์เลี้ยง &#xa; เพื่อเช่า." style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="2" vertex="1">
+          <mxGeometry x="60" y="252" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="432" as="targetPoint" />
+            <mxPoint x="115" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="10" value="เลือกสัคว์ลงตระกร้า" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="2" vertex="1">
-          <mxGeometry x="55" y="332" width="120" height="50" as="geometry" />
+          <mxGeometry x="55" y="375" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="ToehWfmH9_tg1f4AcDxQ-73">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55.5" y="242" as="targetPoint" />
+            <mxPoint x="55.5" y="285" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="26" y="472" />
-              <mxPoint x="26" y="242" />
+              <mxPoint x="26" y="515" />
+              <mxPoint x="26" y="285" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-73" value="เลือกสัตว์ต่อ" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="2">
-          <mxGeometry x="75" y="432" width="80" height="80" as="geometry" />
+          <mxGeometry x="75" y="475" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-76" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="2">
           <mxGeometry x="35" y="472" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-78" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="2">
           <mxGeometry x="170" y="472" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="2" source="ToehWfmH9_tg1f4AcDxQ-86" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-86" value="ลูกค้ามีสัญญาการเช่าไหม" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="2">
+          <mxGeometry x="85.5" y="182" width="55" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-109" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="2">
+          <mxGeometry x="60" y="222" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Staff" style="swimlane;whiteSpace=wrap;startSize=23;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="445" y="128" width="280" height="570" as="geometry" />
@@ -102,20 +108,11 @@
         <mxCell id="30" value="ยืนยันการสั่ง&#xa;ซื้อสัตว์เลี้ยง" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="3" vertex="1">
           <mxGeometry x="135" y="325" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ToehWfmH9_tg1f4AcDxQ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.267;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3" source="ToehWfmH9_tg1f4AcDxQ-81">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="522" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5" y="126" />
-              <mxPoint x="5" y="82" />
-              <mxPoint x="515" y="82" />
-              <mxPoint x="515" y="522" />
-              <mxPoint x="445" y="522" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#393C56;direction=south;" vertex="1" parent="3">
           <mxGeometry x="25" y="115" width="8" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-111" value="คำสั่งซื้อ&#xa;ไม่สามารถดำเนินการได้" style="labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="3">
+          <mxGeometry x="82" y="472" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Payment" style="swimlane;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
@@ -158,11 +155,37 @@
         <mxCell id="ToehWfmH9_tg1f4AcDxQ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-73" target="18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ToehWfmH9_tg1f4AcDxQ-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.767;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-81" target="7">
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.767;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="263.0000000000001" as="targetPoint" />
+            <mxPoint x="358" y="258.0000000000001" as="targetPoint" />
+            <mxPoint x="470" y="268.68000000000006" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="360" y="274" />
+              <mxPoint x="358" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=-0.009;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-86" target="ToehWfmH9_tg1f4AcDxQ-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="339" />
+              <mxPoint x="420" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-111" target="38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ToehWfmH9_tg1f4AcDxQ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.267;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ToehWfmH9_tg1f4AcDxQ-81" target="38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="254" />
+              <mxPoint x="450" y="210" />
+              <mxPoint x="960" y="210" />
+              <mxPoint x="960" y="640" />
+              <mxPoint x="890" y="640" />
+              <mxPoint x="890" y="643" />
             </Array>
           </mxGeometry>
         </mxCell>
