@@ -1,8 +1,4 @@
-- 👋 Hi, I’m @textures
-- 👀 I’m interested in Software Developer
-- 🌱 I’m currently learning Python, Javascript
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+Hi, I'm Traiphakh Sitthikaew you can call me Phakh for the short. I'm still learning at Maejo Unversity in my third-year education. Also, I'm seeking for Software Engineer internship position. Contact me on my email `sirprak1245@gmail.com` if you are interested. Many thanks. 😊
 
 <!---
 textures1245/textures1245 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
