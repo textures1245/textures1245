@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="หน้า-1" id="0-ux6L9yLWwi8XE3BadK">
-    <mxGraphModel dx="1963" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="1942" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
           <mxGeometry x="2280" y="2864" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---266" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="4848" width="4316" height="1756" as="geometry" />
+          <mxGeometry x="-660" y="4848" width="5783" height="1756" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---269" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1475,7 +1475,7 @@
             <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---713" value="Item Catalog" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="GVY_bg4k5aGloY8-XS---713" value="Item Catalog Invectory" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="880.5" y="8260" width="397.5" height="590" as="geometry">
             <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
