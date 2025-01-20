@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="หน้า-1" id="0-ux6L9yLWwi8XE3BadK">
-    <mxGraphModel dx="3543" dy="2513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1969" dy="2269" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,14 +268,11 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---153" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Step 2 Refine Domain Events&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=80;" vertex="1" parent="1">
           <mxGeometry x="-591.0006501116069" y="731.0012602887838" width="451" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---154" value="xd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GVY_bg4k5aGloY8-XS---154" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-608" y="2778" width="3575" height="1756" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---155" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eae847;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="-112" y="3114" width="600" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---156" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eae847;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="2156" y="3094.25" width="600" height="46" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---157" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eae847;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="943" y="3102" width="600" height="46" as="geometry" />
@@ -316,12 +313,6 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---177" value="Order&lt;div&gt;&amp;nbsp;Submitted&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1473" y="2851" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---178" value="Shipping Processed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2396" y="2851.75" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---179" value="Shipping Succeed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2557" y="2851.75" width="120" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---181" value="Store&amp;nbsp;&lt;div&gt;Invectory&lt;br&gt;Avaliable&amp;nbsp;&lt;div&gt;Checked&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="2851" width="122" height="120" as="geometry" />
         </mxCell>
@@ -331,10 +322,15 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---185" value="Order&lt;div&gt;&amp;nbsp;Rejected&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1473" y="2999" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---186" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GVY_bg4k5aGloY8-XS---191" target="GVY_bg4k5aGloY8-XS---154">
+        <mxCell id="GVY_bg4k5aGloY8-XS---186" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GVY_bg4k5aGloY8-XS---154" target="GVY_bg4k5aGloY8-XS---154">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="147" y="3870" as="sourcePoint" />
             <mxPoint x="197" y="3820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---263" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="GVY_bg4k5aGloY8-XS---186">
+          <mxGeometry x="0.0395" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---187" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -348,6 +344,9 @@
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---190" value="Item Validated" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---187">
           <mxGeometry x="806" y="400" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---191" value="User Profile&amp;nbsp;&lt;div&gt;Edited&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fef5b2;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---187">
+          <mxGeometry x="4" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---192" value="Shipping Address&amp;nbsp;&lt;div&gt;Edited&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---187">
           <mxGeometry x="165" y="486" width="120" height="120" as="geometry" />
@@ -378,6 +377,9 @@
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---201" value="Item Validate Rejected" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---187">
           <mxGeometry x="811" y="559" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---202" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="GVY_bg4k5aGloY8-XS---187" source="GVY_bg4k5aGloY8-XS---191" target="GVY_bg4k5aGloY8-XS---191">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---204" value="Buyer" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FEE750;strokeColor=none;fontSize=18;fontStyle=0;rotation=0;shadow=1;size=0;" vertex="1" parent="1">
           <mxGeometry x="-565" y="2827" width="120" height="120" as="geometry" />
@@ -421,31 +423,16 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---227" value="Tax and Shipping Calculated" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#a7c5fc;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="2851" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---228" value="Payment Processed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#da99e6;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1918" y="2851" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---229" value="Transaction History&lt;div&gt;Updated&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#a7c5fc;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2073" y="2851" width="120" height="120" as="geometry" />
+        <mxCell id="GVY_bg4k5aGloY8-XS---228" value="Payment Processed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2089" y="2855.75" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---230" value="Paypal, PS&amp;nbsp;&lt;div&gt;etc.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="2936" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---232" value="Successful&lt;div&gt;&amp;nbsp;Mail Sent&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2227" y="2855" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---233" value="Failure Mail Sent" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2225" y="3013" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---234" value="Notification&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2276" y="2936" width="120" height="120" as="geometry" />
+          <mxGeometry x="2141" y="2940.75" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---235" value="Order&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1816" y="2944" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---236" value="Shipping&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2447" y="2940.5" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---254" value="Store Invectory Sent" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;size=35;" vertex="1" parent="1">
+        <mxCell id="GVY_bg4k5aGloY8-XS---254" value="Store Inventory Sent" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;size=35;" vertex="1" parent="1">
           <mxGeometry x="720" y="4108" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GVY_bg4k5aGloY8-XS---255" value="Successfully Mail Sent" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;size=35;" vertex="1" parent="1">
@@ -460,17 +447,44 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---258" value="Notification&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="972" y="4186" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---259" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GVY_bg4k5aGloY8-XS---154" target="GVY_bg4k5aGloY8-XS---191">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-608" y="3656" as="sourcePoint" />
-            <mxPoint x="2967" y="3656" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="GVY_bg4k5aGloY8-XS---260" value="Order &lt;br&gt;Shipping" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1936" y="2853" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---191" value="User Profile&amp;nbsp;&lt;div&gt;Edited&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fef5b2;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-244" y="3592" width="120" height="120" as="geometry" />
+        <mxCell id="GVY_bg4k5aGloY8-XS---264" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2449" y="2831" width="767" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---202" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="GVY_bg4k5aGloY8-XS---191" target="GVY_bg4k5aGloY8-XS---191">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GVY_bg4k5aGloY8-XS---156" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eae847;rotation=90;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="246" y="277" width="600" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---178" value="Shipping Processed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="486" y="34.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---179" value="Shipping Succeed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="647" y="34.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---229" value="Transaction History&lt;div&gt;Updated&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#a7c5fc;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="158" y="34.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---232" value="Successful&lt;div&gt;&amp;nbsp;Mail Sent&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="317" y="37.75" width="122.75" height="122.75" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---233" value="Failure Mail Sent" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="315" y="195.75" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---234" value="Notification&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="366" y="118.75" width="120" height="120.25" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---236" value="Shipping&lt;br&gt;System" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFB3C5;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry x="537" y="123.25" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---261" value="Payment&amp;nbsp;&lt;div&gt;Failed&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry y="201" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---262" value="Payment&amp;nbsp;&lt;div&gt;Succeed&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#feae57;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="GVY_bg4k5aGloY8-XS---264">
+          <mxGeometry y="34.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---265" value="Payment Validated" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#da99e6;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="2864" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
