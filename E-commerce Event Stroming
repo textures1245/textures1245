@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="หน้า-1" id="0-ux6L9yLWwi8XE3BadK">
-    <mxGraphModel dx="1575" dy="1657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="1828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1407,8 +1407,28 @@
         <mxCell id="GVY_bg4k5aGloY8-XS---668" value="OrderValidate&lt;br&gt;Queued" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fef5b2;strokeColor=none;fontSize=16;fontStyle=0;rotation=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="2039" y="7093" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="GVY_bg4k5aGloY8-XS---669" value="Item Catalog Management" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-608" y="7048" width="550" height="558" as="geometry">
+        <mxCell id="GVY_bg4k5aGloY8-XS---669" value="User Interactive" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-608" y="7048" width="1167" height="676" as="geometry">
+            <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---672" value="Item Catalog Interactive" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="7058" width="487" height="499" as="geometry">
+            <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---673" value="Shopping Operation" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1119.5" y="7054" width="512.5" height="499" as="geometry">
+            <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---674" value="Purchase" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1679" y="7044.5" width="842" height="499" as="geometry">
+            <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GVY_bg4k5aGloY8-XS---675" value="Order" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=0;fillColor=#F5F5F5;gradientColor=none;swimlaneFillColor=none;fontStyle=1;fontColor=#4D4D4D;glass=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="2533" y="7052" width="318" height="436" as="geometry">
             <mxRectangle x="488" y="-400" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
